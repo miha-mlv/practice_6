@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/milk"
+            android:title="Молоко"
+            android:orderInCategory="1" />
+        <item
+            android:id="@+id/meat"
+            android:orderInCategory="2"
+            android:title="Мясо" />
+        <item
+            android:id="@+id/vegetables"
+            android:orderInCategory="3"
+            android:title="Овощи" />
+        <item
+            android:id="@+id/fruits"
+            android:orderInCategory="3"
+            android:title="Фрукты" />
+        <item
+            android:id="@+id/nextActivity"
+            android:orderInCategory="3"
+            android:title="Следующая активность" />
+    </group>
+</menu>
